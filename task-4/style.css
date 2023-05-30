@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg,purple,gray);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    background-color: whitesmoke;
+}
+
+.name {
+    font-size: small;
+    font-style: italic;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.name:hover {
+    font-size: large;
+}
+
+#calulator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    background-color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 0 black;
+}
+
+.result {
+    padding: 25px;
+}
+
+td {
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px -1px black;
+    font-size: 25px;
+    font-family: fantasy;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+
+td:active {
+    background-color: gray;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: transparent;
+}
